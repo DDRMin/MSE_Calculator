@@ -19,6 +19,7 @@ def calculate_mse(image1_path, image2_path):
     return mse
 
 if __name__ == "__main__":
+    # Give image paths here...
     image1_path = "github image.webp"
     image2_path = "gitlab image.webp"
     mse = calculate_mse(image1_path, image2_path)
